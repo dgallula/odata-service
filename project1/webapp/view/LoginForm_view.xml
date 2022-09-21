@@ -1,0 +1,27 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:k ="sap.ui.layout"
+	controllerName="ZPROJTEST_APP_SPLIT_APP.ZPROJTEST_APP_SPLIT_APP.controller.LoginForm" xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Login Form" titleAlignment="Center">
+				<content>
+					<FlexBox alignItems="Center" justifyContent="Center">
+					<k:VerticalLayout>
+						<k:HorizontalLayout>
+							<Label id="idLUname" width="120px" text="UserName"></Label>
+							<Input id="idIUname"></Input>
+						</k:HorizontalLayout>
+						<k:HorizontalLayout>
+							<Label id="idLPwd" width="120px" text="Password"></Label>
+							<Input id="idIPwd" type="Password"></Input>
+						</k:HorizontalLayout>
+						<k:HorizontalLayout>
+							<Label width="95px"></Label>
+							<Button id="idBtn" text="Login" press="checkDetails" width="120px"></Button>
+						</k:HorizontalLayout>
+					</k:VerticalLayout>
+					</FlexBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ZPROJTEST_APP_SPLIT_APP</title>
+		<script id="sap-ui-bootstrap"
+			src="resources/sap-ui-core.js"
+			data-sap-ui-theme="sap_fiori_3"
+			data-sap-ui-resourceroots='{"ZPROJTEST_APP_SPLIT_APP.ZPROJTEST_APP_SPLIT_APP": "./"}'
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-async="true"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-frameOptions="trusted">
+		</script>
+		<script>
+			sap.ui.getCore().attachInit(function() { //getCore() boots the Core framework and makes it available for the Application via the method sap.ui.getCore(). attachInit() is the code which gets executed first when your web page loads
+
+			new sap.ui.core.ComponentContainer({
+				name : "ZPROJTEST_APP_SPLIT_APP.ZPROJTEST_APP_SPLIT_APP"
+			}).placeAt("content");
+		});
+		</script>
+	</head>
+	<body class="sapUiBody">
+		<div data-sap-ui-component data-name="ZPROJTEST_APP_SPLIT_APP.ZPROJTEST_APP_SPLIT_APP" data-id="container" data-settings='{"id" : "ZPROJTEST_APP_SPLIT_APP"}'></div>
+		<div id="content"></div>
+	</body>
+</html>

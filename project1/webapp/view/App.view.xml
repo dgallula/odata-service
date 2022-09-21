@@ -1,0 +1,7 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="ZPROJTEST_APP_SPLIT_APP.ZPROJTEST_APP_SPLIT_APP.controller.App" xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<mvc:XMLView id="idLoginForm" viewName="ZPROJTEST_APP_SPLIT_APP.ZPROJTEST_APP_SPLIT_APP.view.LoginForm"></mvc:XMLView>
+		<mvc:XMLView id="idSplitApp" viewName="ZPROJTEST_APP_SPLIT_APP.ZPROJTEST_APP_SPLIT_APP.view.SplitApp"></mvc:XMLView>
+	</App>
+</mvc:View>
